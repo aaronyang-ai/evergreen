@@ -1,0 +1,14 @@
+{
+  "name": "evergreen-rescue-request",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Evergreen rescue lane for the deprecated npm package `request`. Regression tests for CVE-2023-28155.",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "request": "2.88.2"
+  }
+}
